@@ -1,10 +1,7 @@
 const { transformed } = require("./version");
-const log = require("./log");
 const { program } = require("commander");
 
-program.version(transformed);
-
-log.info(transformed);
+console.info(transformed);
 
 const createCommand = require("./create");
 createCommand.use(program);
