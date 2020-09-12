@@ -1,0 +1,12 @@
+{
+    "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home",
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "serverUrl": "http://192.168.31.73:9000",
+            "token": "b7f331b1de25d76ce2271f93e69397f871a600e0"
+        }
+    ],
+    "sonarlint.connectedMode.project": {
+        "projectKey": "xy-cli"
+    }
+}
